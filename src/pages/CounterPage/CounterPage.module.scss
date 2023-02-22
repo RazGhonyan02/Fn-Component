@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: purple;
+    border-radius: 20px;
+}
+.button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+h2 {
+    font-size: 30px;
+    color: white;
+}

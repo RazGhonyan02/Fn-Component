@@ -7,9 +7,11 @@ import TodoList from "../../pages/TodoList/TodoList";
 import PrivateRoute from "../../routes/PrivateRoute";
 import PublicRoute from "../../routes/PublicRoute";
 import Header from "../Header/Header";
+import CounterPage from "../../containers/CounterContainer";
 
 const AppLayout = () => {
   return (
+
     <BrowserRouter>
       <Header />
       <main>
@@ -33,6 +35,10 @@ const AppLayout = () => {
           <Route
             path="*"
             element={<Error404 />}
+          />
+          <Route
+            path="/count"
+            element={<CounterPage />}
           />
         </Routes>
       </main>
