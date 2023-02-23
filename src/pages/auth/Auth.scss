@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+.form input {
+    width: 400px;
+    padding: 10px;
+}
+.form input::placeholder {
+    color: purple;
+    font-size: 16px;
+}
+.form button {
+    width: 126px;
+    padding: 10px;
+    color: purple;
+    font-weight: 800px;
+    font-size: 20px;
+}
+.link {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding: 0 4px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        color: purple;
+        border-color: purple;
+    }
+}

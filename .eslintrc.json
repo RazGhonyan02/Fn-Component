@@ -23,6 +23,16 @@
         "arrow-body-style":"off",
         "react/function-component-definition": "off",
         "consistent-return":"off",
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
+        "react/jsx-no-constructed-context-values": "off",
+        "no-restricted-globals": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "react/button-has-type": "off",
+        "react/jsx-props-no-spreading": "off",
+        "import/prefer-default-export": "off",
+        "default-param-last": "off",
+        "import/order": "off",
+        "comma-dangle": "off"
     }
 }
