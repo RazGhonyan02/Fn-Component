@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "../../pages/auth/Login/Login";
+import Login from "../../containers/AuthContainer";
 import Register from "../../pages/auth/Registration/Register";
 import Error404 from "../../pages/Error Page/Error404";
 import Home from "../../pages/Home/Home";
@@ -11,7 +11,6 @@ import CounterPage from "../../containers/CounterContainer";
 
 const AppLayout = () => {
   return (
-
     <BrowserRouter>
       <Header />
       <main>

@@ -1,4 +1,8 @@
-// import { setToken, removeToken } from "../reducers/LoginReducer";
+import { LOGIN, LOGOUT } from "../reducers/LoginReducer";
 
-// export const login = { type: setToken };
-// export const logout = { type: removeToken };
+export const login = {
+  type: LOGIN
+};
+export const logout = {
+  type: LOGOUT
+};
