@@ -1,8 +1,13 @@
-import { Navigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
-const PublicRoute = ({ children, token }) => {
+const PublicRoute = ({ children }) => {
+  const token = useSelector((store) => {
+    return store.token;
+  });
+  const navigate = useNavigate();
   if (token) {
-    Navigate("/");
+    navigate("/");
   } else {
     return children;
   }
